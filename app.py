@@ -10,7 +10,7 @@ import numpy as np
 # -------------------------------------------
 # 1. SETUP & CONFIGURATION
 # -------------------------------------------
-st.set_page_config(page_title="Amsterdam Host Advisor", page_icon="🌷", layout="wide")
+st.set_page_config(page_title="Amsterdam Host Advisor", page_icon="", layout="wide")
 
 # PROFESSIONAL STYLING SETUP
 sns.set_theme(style="whitegrid")
@@ -111,8 +111,8 @@ with st.sidebar.expander(f"Weather Settings ({selected_date.strftime('%B')})"):
 # -------------------------------------------
 # 4. MAIN PAGE: LIVE ANALYSIS (No Buttons)
 # -------------------------------------------
-st.title("🌷 Amsterdam Host Strategy Tool")
-st.markdown(f"### 📅 Forecast for {selected_date.strftime('%A, %d %B %Y')}")
+st.title(" Amsterdam Host Strategy Tool")
+st.markdown(f"###  Forecast for {selected_date.strftime('%A, %d %B %Y')}")
 
 # --- 1. RUN PREDICTION INSTANTLY ---
 scenarios = {
