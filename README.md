@@ -9,7 +9,9 @@ A machine learning framework that helps Airbnb hosts in Amsterdam maximize reven
 ## 📖 About the Project
 
 In the competitive short-term rental market, many hosts set prices by guesswork and overlook signals such as upcoming weather or patterns in guest reviews.     
-The Amsterdam Forecast fuses Economics (calendar data), Environment (weather API), and Voice of the Customer (NLP on reviews) into a single predictive engine using an XGBoost classifier and an interactive Streamlit dashboard.    
+The Amsterdam Forecast fuses Economics (calendar data), Environment (weather API), and Voice of the Customer (NLP on reviews) into a single predictive engine using an XGBoost classifier and an interactive Streamlit dashboard.   
+
+Link to the Project : https://amsterdam-forecast.streamlit.app/ 
 
 ---
 
